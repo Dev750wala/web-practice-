@@ -1,0 +1,70 @@
+#container {
+    width: 220px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+}
+
+* {
+    font-family: 'Afacad', sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    max-width: 80%;
+    min-width: 80%;
+    min-height: 45%;
+    max-height: 45%;
+    font-size: 13px;
+    color: #333;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    align-self: center;
+    outline-color: #bbbbbb;
+}
+
+button {
+    width:27%;
+    margin: 15px 11px;
+    border-radius: 5px;
+    border: 0px solid rgba(0, 0, 0, 0.386);
+    align-content: center;
+    font-size: 12px;
+    color: aliceblue;
+}
+
+svg {
+    block-size: 10px;
+}
+
+.not-clicked {
+    background-color: #2785ff;
+    transition: background-color 0.3s;
+}
+
+.not-clicked:hover {
+    background-color: #0059cd;
+}
+
+/* WHEN IT IS CLICKED, THIS CLASS IS ADDED */
+.clicked {
+    background-color: #979797;
+    transition: background-color 0.3s;
+}
+
+.clicked:hover {
+    background-color: #7e7d7d;
+}
